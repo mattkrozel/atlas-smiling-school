@@ -139,3 +139,36 @@ img.p-arrow, img.n-arrow {
   line-height: 34px;
 }
 
+.card {
+  border: none;
+}
+
+.img-user {
+  width: 30px;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.play-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.review {
+  width: 120px;
+}
+
+.person {
+  font-family: var(--font-family-title);
+  font-size: 12px;
+  line-height: 27px;
+}
+
+.star-rating {
+  width: 15px;
+  height: 15px;
+  margin: 0 auto;
+}
+
