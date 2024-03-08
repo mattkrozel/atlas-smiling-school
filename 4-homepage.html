@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SmileSchool</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="hero-header">
+            <header class="container d-flex pt-4 flex-column flex-sm-row justify-content-between">
+                <h1 class="justify-content-center flex-sm-row flex-column align-items-center mt-0 justify-content-sm-start col-12 col-md-7 col-sm-6 col-xl-9 d-flex">
+                    <a href="" class="mr-3 smile-off"></a>
+                    <a href="" class="mt-2 mt-sm-0 smile-logo"></a>
+                </h1>
+                <a class="icon-menu text-decoration-none position-absolute float-left d-sm-none"></a>
+                <div class="text-decoration-none nav-menu">
+                    <nav class="nav text-white collapse px-0 d-sm-flex col-xl-3 col-sm-6 col-md-5 col-12" id="collapse-example">
+                        <ul class="flex-column flex-sm-row px-0 align-items-center w-100 justify-content-sm-between d-flex">
+                            <li class="nav-link">
+                                <a><b>COURSES</b></a>
+                            </li>
+                            <li class="nav-link">
+                                <a><b>PRICING</b></a>
+                            </li>
+                            <li class="nav-link">
+                                <a><b>LOGIN</b></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="text-center wrapper">
+                <h1 class="title text-white font-weight-bold mb-0 pt-5 px-0">Get schooled</h1>
+                <div class="justify-content-center d-flex">
+                    <p class="mr-5 font-weight-bold text-white"><b>SMILES</b></p>
+                    <p class="mr-5 font-weight-bold text-white"><b>GRIN</b></p>
+                    <p class="font-weight-bold text-white"><b>LAUGH</b></p>
+                </div>
+                <button class="btn btn-main btn-color btn-shadow mb-3 mt-3 font-weight-light rounded border-0">REGISTER FOR FREE</button>
+                <h2 class="font-weight-light mt-5 text-white"><span class="font-weight-bold selected-text">Learn</span> from the pros</h2>
+                <section class="justify-content-center row pt-5 text-white d-flex">
+                    <article class="col-md-3 col-6">
+                        <img src="images/profile_1.jpg" class="mb-3 rounded-circle profile" alt="Phillip">
+                        <h5 class="font-weight-bold">Phillip Massey</h5>
+                        <p>« Smile of the year »</p>
+                        <p>2018 - 2019</p>
+                    </article>
+                    <article class="col-md-3 col-6">
+                        <img src="images/profile_2.jpg" class="mb-3 rounded-circle profile" alt="Nannie">
+                        <h5 class="font-weight-bold">Nannie Lawrence</h5>
+                        <p>Best « little smile »</p>
+                        <p>2017</p>
+                    </article>
+                    <article class="col-md-3 col-6">
+                        <img src="images/profile_3.jpg" class="mb-3 rounded-circle profile" alt="Bruce">
+                        <h5 class="font-weight-bold">Bruce Walters</h5>
+                        <p>Best « Friend Smile »</p>
+                        <p>live performance 2019</p>
+                    </article>
+                    <article class="col-md-3 col-6">
+                        <img src="images/profile_4.jpg" class="mb-3 rounded-circle profile" alt="Henry">
+                        <h5 class="font-weight-bold">Henry Hughes</h5>
+                        <p>« 24h smiles »</p>
+                        <p>2016 - 2019</p>
+                    </article>
+                </section>
+            </div>
+        </div>
+        <main>
+            <section class="main-carousel text-white py-5">
+                <div id="the_carousel" class="carousel slide my-5" data-ride="carouse">
+                    <a class="pt-5 pt-sm-0 align-items-sm-center align-items-start d-flex carousel-control-prev" href="#the-carousel" role="button" data-slide="prev">
+                        <img class="p-arrow" src="images/arrow_white_left.png" aria-hidden="true"><span class="sr-only">Previous</span>
+                    </a>
+                    <a class="pt-5 pt-sm-0 align-items-sm-center align-items-start d-flex carousel-control-next" href="#the-carousel" role="button" data-slide="next">
+                        <img class="n-arrow" src="images/arrow_white_right.png" aria-hidden="true"><span class="sr-only">Next</span>
+                    </a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active px-5">
+                            <div class="d-flex row justify-content-center align-items-center">
+                                <div class="justify-content-sm-end d-flex col-sm-4 col-12">
+                                    <img class="rounded-circle profile-carousel mx-auto" src="images/profile_5.jpg">
+                                </div>
+                                <div class="pt-sm-0 pt-5 mr-3 col">
+                                    <p class="font-weight-light mb-3">« Those tutorials are concise and go straight to the point. I can’t think of a
+                                        better place to learn smiling. And it’s so fun!</p>
+                                    <h6 class="font-weight-bold m-0 mb-1">Person Name</h6>
+                                    <p class="m-0 font-italic">Weather presenter</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item px-5">
+                            <div class="d-flex row justify-content-center align-items-center">
+                                <div class="justify-content-sm-end d-flex col-sm-4 col-12">
+                                    <img class="rounded-circle profile-carousel mx-auto" src="images/profile_5.jpg">
+                                </div>
+                                <div class="pt-sm-0 pt-5 mr-3 col">
+                                    <p class="font-weight-light mb-3">« Those tutorials are concise and go straight to the point. I can’t think of a
+                                        better place to learn smiling. And it’s so fun!</p>
+                                    <h6 class="font-weight-bold m-0 mb-1">Person Name</h6>
+                                    <p class="m-0 font-italic">Weather presenter</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center mx-auto mt-5">
+                <h2 class="text-dark font-weight-light">Most <span class="font-weight-bold selected-text">popular</span> tutorials</h2>
+                <div id="t-carousel" class="carousel slide my-5" data-ride="carouse">
+                    <a class="pt-5 pt-sm-0 align-items-sm-center align-items-start d-flex carousel-control-prev" href="#t-carousel" role="button" data-slide="prev">
+                        <img class="p-arrow" src="images/arrow_black_left.png" aria-hidden="true"><span class="sr-only">Previous</span>
+                    </a>
+                    <a class="pt-5 pt-sm-0 align-items-sm-center align-items-start d-flex carousel-control-next" href="#t-carousel" role="button" data-slide="next">
+                        <img class="n-arrow" src="images/arrow_black_right.png" aria-hidden="true"><span class="sr-only">Next</span>
+                    </a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item flex-nowrap justify-content-center d-none d-lg-flex d-flex active">
+
+                            <div class="mr-3 card" style="width: 16rem;">
+                                <div class="align-items-center d-flex justify-content-center">
+                                    <img src="images/thumbnail_4.jpg" class="card-img-top">
+                                    <img src="images/play.png" class="position-absolute play-icon">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-left font-weight-bold">Diagonal Smile</h5>
+                                    <p class="text-left card-text text-muted">Lorem ipsum dolor sit amet, consect adipiscing elit, sed doeiusmod.</p>
+                                    <div class="align-items-center d-flex">
+                                        <div class="mr-3">
+                                            <img src="images/profile_1.jpg" class="img-user rounded-circle">
+                                        </div>
+                                        <div class="person selected-text">Phillip Massey</div>
+                                    </div>
+                                    <div class="cfooter d-flex bg-transparent">
+                                        <div class="review d-flex justify-content-between mt-3 align-items-center">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_off.png" class="star-rating">
+                                        </div>
+                                        <div class="selected-text ctime mt-3 ml-5 pl-2">8 min</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mr-3 card d-none d-sm-block" style="width: 16rem;">
+                                <div class="align-items-center d-flex justify-content-center">
+                                    <img src="images/thumbnail_3.jpg" class="card-img-top">
+                                    <img src="images/play.png" class="position-absolute play-icon">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-left font-weight-bold">Sad Smile</h5>
+                                    <p class="text-left card-text text-muted">Lorem ipsum dolor sit amet, consect adipiscing elit, sed doeiusmod.</p>
+                                    <div class="align-items-center d-flex">
+                                        <div class="mr-3">
+                                            <img src="images/profile_1.jpg" class="img-user rounded-circle">
+                                        </div>
+                                        <div class="person selected-text">Phillip Massey</div>
+                                    </div>
+                                    <div class="cfooter d-flex bg-transparent">
+                                        <div class="review d-flex justify-content-between mt-3 align-items-center">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_off.png" class="star-rating">
+                                        </div>
+                                        <div class="selected-text ctime mt-3 ml-5 pl-2">8 min</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mr-3 card d-none d-md-block" style="width: 16rem;">
+                                <div class="align-items-center d-flex justify-content-center">
+                                    <img src="images/thumbnail_1.jpg" class="card-img-top">
+                                    <img src="images/play.png" class="position-absolute play-icon">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-left font-weight-bold">Diagonal Smile</h5>
+                                    <p class="text-left card-text text-muted">Lorem ipsum dolor sit amet, consect adipiscing elit, sed doeiusmod.</p>
+                                    <div class="align-items-center d-flex">
+                                        <div class="mr-3">
+                                            <img src="images/profile_1.jpg" class="img-user rounded-circle">
+                                        </div>
+                                        <div class="person selected-text">Phillip Massey</div>
+                                    </div>
+                                    <div class="cfooter d-flex bg-transparent">
+                                        <div class="review d-flex justify-content-between mt-3 align-items-center">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_off.png" class="star-rating">
+                                        </div>
+                                        <div class="selected-text ctime mt-3 ml-5 pl-2">8 min</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card d-md-block d-none" style="width: 16rem;">
+                                <div class="align-items-center d-flex justify-content-center">
+                                    <img src="images/thumbnail_2.jpg" class="card-img-top">
+                                    <img src="images/play.png" class="position-absolute play-icon">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-left font-weight-bold">Diagonal Smile</h5>
+                                    <p class="text-left card-text text-muted">Lorem ipsum dolor sit amet, consect adipiscing elit, sed doeiusmod.</p>
+                                    <div class="align-items-center d-flex">
+                                        <div class="mr-3">
+                                            <img src="images/profile_1.jpg" class="img-user rounded-circle">
+                                        </div>
+                                        <div class="person selected-text">Phillip Massey</div>
+                                    </div>
+                                    <div class="cfooter d-flex bg-transparent">
+                                        <div class="review d-flex justify-content-between mt-3 align-items-center">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_off.png" class="star-rating">
+                                        </div>
+                                        <div class="selected-text ctime mt-3 ml-5 pl-2">8 min</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="membership-piece pt-5 mx-auto text-center justify-content-center row row-sm-cols-2">
+                <h2 class="font-weight-light col-12 text-white"><span class="font-weight-bold selected-text">Free</span> membership</h2>
+                <article class="justify-content-around text-white d-flex mx-auto text-center p-5">
+                    <div class="m-logo bg-transparent" style="width: 16rem;">
+                        <img src="images/smile_on.png" class="card-img-top smile-img mb-4 mx-auto">
+                        <h3 class="card-title font-weight-bold m-title">Lorem ipsum</h3>
+                        <p class="card-text text-white m-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                    </div>
+                </article>
+                <article class="justify-content-around text-white d-flex mx-auto text-center p-5">
+                    <div class="m-logo bg-transparent" style="width: 16rem;">
+                        <img src="images/smile_on.png" class="card-img-top smile-img mb-4 mx-auto">
+                        <h3 class="card-title font-weight-bold m-title">Lorem ipsum</h3>
+                        <p class="card-text text-white m-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                    </div>
+                </article>
+                <article class="justify-content-around text-white d-flex mx-auto text-center p-5">
+                    <div class="m-logo bg-transparent" style="width: 16rem;">
+                        <img src="images/smile_on.png" class="card-img-top smile-img mb-4 mx-auto">
+                        <h3 class="card-title font-weight-bold m-title">Lorem ipsum</h3>
+                        <p class="card-text text-white m-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                    </div>
+                </article>
+                <article class="justify-content-around text-white d-flex mx-auto text-center p-5">
+                    <div class="m-logo bg-transparent" style="width: 16rem;">
+                        <img src="images/smile_on.png" class="card-img-top smile-img mb-4 mx-auto">
+                        <h3 class="card-title font-weight-bold m-title">Lorem ipsum</h3>
+                        <p class="card-text text-white m-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                    </div>
+                </article>
+                <div class="col-12">
+                    <button class="btn btn-main btn-color border-0 rounded font-weight-light mt-3 mb-3 btn-shadow">REGISTER FOR FREE</button>
+                </div>
+            </section>
+            <section class="text-center mx-auto mt-5">
+                <h2 class="text-dark font-weight-light"><span class="font-weight-bold selected-text">Latest</span> videos</h2>
+                <div id="v-carousel" class="carousel slide my-5" data-ride="carouse">
+                    <a class="pt-5 pt-sm-0 align-items-sm-center align-items-start d-flex carousel-control-prev" href="#t-carousel" role="button" data-slide="prev">
+                        <img class="p-arrow" src="images/arrow_black_left.png" aria-hidden="true"><span class="sr-only">Previous</span>
+                    </a>
+                    <a class="pt-5 pt-sm-0 align-items-sm-center align-items-start d-flex carousel-control-next" href="#t-carousel" role="button" data-slide="next">
+                        <img class="n-arrow" src="images/arrow_black_right.png" aria-hidden="true"><span class="sr-only">Next</span>
+                    </a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item flex-nowrap justify-content-center d-none d-lg-flex d-flex active">
+
+                            <div class="mr-3 card" style="width: 16rem;">
+                                <div class="align-items-center d-flex justify-content-center">
+                                    <img src="images/thumbnail_4.jpg" class="card-img-top">
+                                    <img src="images/play.png" class="position-absolute play-icon">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-left font-weight-bold">Diagonal Smile</h5>
+                                    <p class="text-left card-text text-muted">Lorem ipsum dolor sit amet, consect adipiscing elit, sed doeiusmod.</p>
+                                    <div class="align-items-center d-flex">
+                                        <div class="mr-3">
+                                            <img src="images/profile_1.jpg" class="img-user rounded-circle">
+                                        </div>
+                                        <div class="person selected-text">Phillip Massey</div>
+                                    </div>
+                                    <div class="cfooter d-flex bg-transparent">
+                                        <div class="review d-flex justify-content-between mt-3 align-items-center">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_off.png" class="star-rating">
+                                        </div>
+                                        <div class="selected-text ctime mt-3 ml-5 pl-2">8 min</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mr-3 card d-none d-sm-block" style="width: 16rem;">
+                                <div class="align-items-center d-flex justify-content-center">
+                                    <img src="images/thumbnail_3.jpg" class="card-img-top">
+                                    <img src="images/play.png" class="position-absolute play-icon">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-left font-weight-bold">Sad Smile</h5>
+                                    <p class="text-left card-text text-muted">Lorem ipsum dolor sit amet, consect adipiscing elit, sed doeiusmod.</p>
+                                    <div class="align-items-center d-flex">
+                                        <div class="mr-3">
+                                            <img src="images/profile_1.jpg" class="img-user rounded-circle">
+                                        </div>
+                                        <div class="person selected-text">Phillip Massey</div>
+                                    </div>
+                                    <div class="cfooter d-flex bg-transparent">
+                                        <div class="review d-flex justify-content-between mt-3 align-items-center">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_off.png" class="star-rating">
+                                        </div>
+                                        <div class="selected-text ctime mt-3 ml-5 pl-2">8 min</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mr-3 card d-none d-md-block" style="width: 16rem;">
+                                <div class="align-items-center d-flex justify-content-center">
+                                    <img src="images/thumbnail_1.jpg" class="card-img-top">
+                                    <img src="images/play.png" class="position-absolute play-icon">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-left font-weight-bold">Diagonal Smile</h5>
+                                    <p class="text-left card-text text-muted">Lorem ipsum dolor sit amet, consect adipiscing elit, sed doeiusmod.</p>
+                                    <div class="align-items-center d-flex">
+                                        <div class="mr-3">
+                                            <img src="images/profile_1.jpg" class="img-user rounded-circle">
+                                        </div>
+                                        <div class="person selected-text">Phillip Massey</div>
+                                    </div>
+                                    <div class="cfooter d-flex bg-transparent">
+                                        <div class="review d-flex justify-content-between mt-3 align-items-center">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_off.png" class="star-rating">
+                                        </div>
+                                        <div class="selected-text ctime mt-3 ml-5 pl-2">8 min</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card d-md-block d-none" style="width: 16rem;">
+                                <div class="align-items-center d-flex justify-content-center">
+                                    <img src="images/thumbnail_2.jpg" class="card-img-top">
+                                    <img src="images/play.png" class="position-absolute play-icon">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-left font-weight-bold">Diagonal Smile</h5>
+                                    <p class="text-left card-text text-muted">Lorem ipsum dolor sit amet, consect adipiscing elit, sed doeiusmod.</p>
+                                    <div class="align-items-center d-flex">
+                                        <div class="mr-3">
+                                            <img src="images/profile_1.jpg" class="img-user rounded-circle">
+                                        </div>
+                                        <div class="person selected-text">Phillip Massey</div>
+                                    </div>
+                                    <div class="cfooter d-flex bg-transparent">
+                                        <div class="review d-flex justify-content-between mt-3 align-items-center">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_on.png" class="star-rating">
+                                            <img src="images/star_off.png" class="star-rating">
+                                        </div>
+                                        <div class="selected-text ctime mt-3 ml-5 pl-2">8 min</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

@@ -71,7 +71,7 @@ li {
   font-size: 120px;
 }
 
-.btn-main {
+.btn-primary {
   font-size: 14px;
   width: 162px;
   height: 44px;
@@ -81,7 +81,7 @@ li {
   background: var(--colorpurple)!important;
 }
 
-.btn-main:hover {
+.btn-primary:hover {
   opacity: 0.9;
 }
 
@@ -172,3 +172,109 @@ img.p-arrow, img.n-arrow {
   margin: 0 auto;
 }
 
+.membership-piece {
+  background-color: var(--colorprimary);
+  min-height: 500px;
+  padding: 40px 0;
+  min-width: auto;
+}
+
+.m-logo {
+  border: none;
+  width: 257px;
+  height: 153px;
+}
+
+.smile-img {
+  width: 45px;
+}
+
+.m-title {
+  font-family: var(--font-family-title);
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.m-text {
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.footer-piece {
+  background-color: var(--colorprimary);
+  min-height: 249px;
+}
+
+.icon-facebook::before {
+  content: '\e908';
+  font-size: 32px;
+}
+
+.icon-twitter::before {
+  content: '\e90f';
+  font-size: 32px;
+}
+
+.icon-instagram::before {
+  content: '\e90a';
+  font-size: 32px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.nav .active {
+  color: var(--colorpurple)!important;
+  border-bottom: 2px solid white;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 60px;
+  }
+  .img-user {
+    width: 200%;
+  }
+}
+
+.pricing {
+  position: relative;
+  background: url(images/pic_2.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 1093px;
+}
+
+.p-title {
+  font-size: 60px;
+}
+
+.logo-pricing {
+  width: 32px;
+  height: auto;
+}
+
+.s-title {
+  font-family: 'Coiny';
+  font-size: 32px;
+}
+
+.table > tbody > tr:first-child > td,
+.table > tbody > tr:first-child > th {
+  border: none;
+}
+
+.iconCheck::before {
+  content: '\e905';
+  color: #82d24f;
+}
+
+.table tr, th, td {
+  vertical-align: middle;
+}
